@@ -1,0 +1,213 @@
+                                                                EX:2
+2.1.1: PRINT 'NEWTON IS A SCIENTIST AND IN 1685 HE EVALUATED
+           VALUE OF GRAVITY'?
+
+           #include <iostream>
+using namespace std;
+int main() {
+    int number;
+    float gravity;
+    string name;
+    number = 1685;
+    gravity = 9.8.;
+    name = "Newton";
+    cout << name << " is a scientist and in " <<number<< " he evaluated value of gravity " <<gravity;
+    return 0;
+}  
+
+OUTPUT:
+                  Newton is a scientist and in 1685 he evaluated value of gravity 9.8.
+..........................................................................................................................................
+2.1.2: 
+          ASSIGN VARIABLE WITH DIFFERENT DATA TYPE AND PRINT THEM ACCORDINGLY IN ONLY 
+          ONE  COUT COMMAND IN A NEW LINE? 
+
+          #include <iostream>
+using namespace std;
+int main() {
+    string boss;
+    int ship;
+    char ncoc;
+    char moj;
+    double ghop;
+    boss = "paistan";
+    ship = 2; 
+    ncoc = 'c';
+    moj = 'm';
+    ghop = 5.66;
+    
+    cout << boss << " is " << ship << ncoc << moj << " and\n " <<ghop <<moj<< " long";
+    return 0;
+}
+    
+OUTPUT:
+                  paistan is 2cm and
+                  5.66m long
+....................................................................................................................................................................................................................
+
+
+2.2:
+       TAKE TWO VARIABLE.
+        DECLARE WITH TWO DIFFERENT (int) VALUES.
+         PRINT THEIR (" + , - , * , / ") ?	
+
+
+	#include <iostream>
+using namespace std;
+int main() {
+     int num1 = 5;
+     int num2 = 8;
+     int sub = num1-num2;
+     int sum = num1+num2; 
+     int multi = num1*num2;
+     float divi = num1%num2;
+     int rim = num1/num2;
+     
+     cout << "sum of " <<num1<<" and " <<num2<< " is \n" << sum;
+     cout << "\ndifference between " <<num1<< " and "<<num2<< " is \n" <<sub;
+     cout << "\nproduct of " <<num1<< " and " <<num2<< " is \n " <<multi;
+     cout << "\nquotiet and remainder of " <<num1<< " and " <<num2<< " is \n" <<divi<< " and "<<rim;
+     return 0;   
+     }
+
+     OUTPUT:
+	sum of 5 and 8 is 
+                   13
+                   difference between 5 and 8 is 
+                   -3
+                    product of 5 and 8 is 
+                    40
+                    quotiet and remainder of 5 and 8 is 
+                    5 and 0
+.............................................................................................................................................
+2.3.1:
+         TAKE USER INPUT AN NAME AND PRINT IT?
+
+         #include <iostream>
+using namespace std;
+int main() {
+    string name;
+    cout << "enter your name : ";
+    cin >> name;
+    cout << "\nHello "<<name;
+    return 0;
+}
+
+OUTPUT:
+	==>Enter your name :
+	==>Enter your name : Faraz
+	==>enter your name : faraz
+                          Hello faraz
+...........................................................................................................................................
+2.3.2:
+         USER INPUT NAME , AGE , FATHER'S NAME AND HEIGHT?
+
+#include <iostream>
+using namespace std;
+int main() {
+    string name;
+    int age;
+    string faname;
+    float height;
+    cout << "Enter your name , age , father's name and height\n";
+    cin >> name;
+    cin >> age;
+    cin >> faname;
+    cin >> height;
+    cout << "\nyou are "<<name<<" \nyour age is "<<age<< " ,\n your father's name is "<<faname<< "\nyour height is "<<height;
+    return 0;
+}
+
+OUTPUT:
+Q....         |	Enter your name , age , father's name and height
+INPUT... | 	FARAZ 13 NADIR 5.8
+ANS...     | 	you are FARAZ 
+                | your age is 13 ,
+                | your father's name is NADIR
+                | your height is 5.8
+
+.......................................................................................................................
+2.3.4 :
+          SAME AS ABOVE BUT PRINT THEM ONE BY ONE?
+
+	#include <iostream>
+using namespace std;
+int main() {
+    string name;
+    int age;
+    string faname;
+    double height;
+    cout << "Enter your name\n";
+    cin >> name;
+    cout << "your name is "<<name;
+    cout << "\nEnter your age\n";
+    cin >> age;
+    cout << "your age is "<<age;
+    cout << "\nEnter your father's name\n";
+    cin >> faname;
+    cout << "your fathers name is "<<faname;
+    cout << "\nEnter your height\n";
+    cin >> height;
+    cout << "your height is "<<height;
+    return 0;
+}
+
+OUTPUT:
+	|Enter your name
+	 |Faraz 
+	 |your name is Faraz
+	 |Enter your age
+	 |13
+	 |your age is 13
+	 |Enter your father's name
+	 |Nadir
+	 |your fathers name is Nadir
+	 |Enter your height
+	 |5.66
+	 |your height is 5.66
+....................................................................................................................................................................................................................................................................................................................................................	
+2.3.5:
+         take user's height in cm and convert it in feet.
+
+	#include <iostream>
+using namespace std;
+int main() {
+  int mass;
+  int in_feet,in_ft1;
+  float in_ft;
+  cout << "Enter your height in cm\n";
+  cin >> mass;
+  in_feet = mass*0.032808;
+  in_ft = mass*0.032808;
+  in_ft = (in_ft - in_feet)*12;
+  in_ft1 = in_ft;
+  cout << "your height in feet is "<<in_feet << "'" << in_ft1 <<'"';
+    return 0;
+}
+OUTPUT:Enter your height in cm
+                173
+                 your height in feet is 5'8"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+	
+	
+ 	

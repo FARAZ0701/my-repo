@@ -1,0 +1,24 @@
+Blockchain.com is a cryptocurrency financial services company.
+ The company began as the first Bitcoin blockchain explorer in 2011
+ and later created a cryptocurrency wallet that accounted
+ for 28% of bitcoin transactions between 2012 and 2020. 
+
+Wikipedia
+
+Headquarters: Luxembourg City, Luxembourg
+
+Founded: August 2011; 10 years ago in York, United Kingdom
+
+Date launched: August 30, 2011
+
+Written in: C
+
+Category: Finance
+
+Created by: Nicolas Cary, Peter Smith, KSI, Ben Reeves
+
+Programming language: C
+-------------------------------------------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(159, 165, 162);
+    border: 0ch solid black;
+    }
+h1{
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+p{
+    font-family:'Cambria';
+    color: brown;
+}
+a{
+    color: bisque;
+    background-color: brown;}
