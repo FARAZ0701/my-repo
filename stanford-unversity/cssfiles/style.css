@@ -1,0 +1,48 @@
+.logo{
+    font-size: 40px;
+    padding-bottom: 1.5%;
+    padding-left: 0%;
+}
+.one{
+    padding-left: 19%;
+}
+span{
+    padding-left: 2%;
+}
+.background{
+    
+    background-color: rgb(173, 11, 11);
+}
+.backgroundt{
+    background-color:rgb(223, 232, 240);
+    height: 60px;
+    box-shadow: 5px 5px rgba(48, 47, 47, 0.27);
+   
+}
+.background a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+.backgroundt a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica;
+    font-style: bold;
+    font-size: 30px;
+}
+.oneone{
+    padding-left: 150px;
+}
+
+.aavbarr{
+    position: fixed;
+    z-index: 1;
+}
+span a:hover{
+  text-decoration: overline;
+  transition: 0.4s ease-in;
+  color: rgb(173, 11, 11);
+  background-color: white;
+}
